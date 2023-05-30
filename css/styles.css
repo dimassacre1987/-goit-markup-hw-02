@@ -1,0 +1,52 @@
+:root {
+    --color-iris: #4D5AE5;
+    --color-ocean: #404BBF;
+    --color-white: #FFFFFF;
+}
+
+body {
+    font-family: "Roboto", "sans-serif";
+    color: #2E2F42;
+}
+
+.list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.header {}
+
+.button {
+    color: var(--color-white);
+    background-color: var(--color-iris);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--color-ocean);
+
+}
+
+.hidden {
+    display: none;
+}
+
+.title {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.title-prefix {
+    color: var(--color-iris);
+}
+
+.paragraph {
+    font-size: 16;
+    line-height: 1.5;
+
+}
