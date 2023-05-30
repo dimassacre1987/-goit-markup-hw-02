@@ -4,38 +4,37 @@
     --color-white: #FFFFFF;
     --color-navy-blue: #2E2F42;
     --color-green: #2E2F42;
-        --color-slate: #434455;
+    --color-slate: #434455;
         --color-light-slate: #8E8F99;
         --color-cornflower: #E7E9FC;
         --color-cloud: #F4F4FD;
     --color-navy-blue-modal: rgba(46, 47, 66, 0.4);
-        --color-grey: rgba(46, 47, 66, 0.7);
+    --color-grey: rgba(46, 47, 66, 0.7);
         --color-dairy: #FCFCFC;
-        --main-color: #E5E5E5;
 }
 
 body {
     font-family: "Roboto", "sans-serif";
     color: var(--color-navy-blue);
-        background-color: var(--main-color);
+    background-color: var(--color-white);
     }
     
-    .header {
+.header {
         background-color: var(--color-cornflower);
-    }
+}
     
-    .title {
-        font-family: "Raleway";
-        font-size: 18px;
-        font-weight: 800;
-        line-height: 1.16;
-        text-transform: uppercase;
-        text-decoration: none;
-        letter-spacing: 3%;
-    }
+.title {
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.16;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3%;
+}
     
-    .title-prefix {
-        color: var(--color-iris);
+.title-prefix {
+    color: var(--color-iris);
 }
 
 .list {
@@ -45,9 +44,7 @@ body {
 }
 
 .link {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+    text-decoration: none;
 }
 
 .header-link {
@@ -65,7 +62,6 @@ body {
 .address-link {
     color: var(--color-slate);
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.5;
     letter-spacing: 2%;
 }
@@ -77,7 +73,6 @@ body {
 .hero-title {
     color: var(--color-white);
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
     letter-spacing: 2%;
 }
@@ -102,11 +97,11 @@ body {
     display: none;
 }
 
-.section {
+.team-section {
     background-color: var(--color-cloud);
 }
 
-.section-title {
+.list-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -116,29 +111,25 @@ body {
 
 .paragraph {
     font-size: 16;
-    font-weight: 400;
-        line-height: 1.5;
+    line-height: 1.5;
         letter-spacing: 2%;
     }
     
-    .footer {
-        background-color: var(--color-navy-blue);
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-    }
+.footer {
+    background-color: var(--color-navy-blue);
+}
     
-    .footer-text {
-        color: var(--color-cloud)
-    }
+.footer-text {
+    color: var(--color-cloud)
+}
     
-    .button-filter {
-        font-family: inherit;
-        font-size: 16;
-        font-weight: 500;
+.button-filter {
+    font-family: inherit;
+    font-size: 16;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 4%;
-        color: var(--color-iris);
+    color: var(--color-iris);
         background-color: var(--color-cornflower);
     }
 
@@ -146,4 +137,7 @@ body {
 .button-filter:focus {
     color: var(--color-white);
     background-color: var(--color-ocean);
+}
+.footer-title {
+    color: var(--color-cloud)
 }
