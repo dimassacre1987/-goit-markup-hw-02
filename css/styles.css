@@ -1,22 +1,22 @@
 :root {
-    --color-iris: #4D5AE5;
-    --color-ocean: #404BBF;
-    --color-white: #FFFFFF;
-    --color-navy-blue: #2E2F42;
-    --color-green: #2E2F42;
-    --color-slate: #434455;
-        --color-light-slate: #8E8F99;
-        --color-cornflower: #E7E9FC;
-        --color-cloud: #F4F4FD;
-    --color-navy-blue-modal: rgba(46, 47, 66, 0.4);
-    --color-grey: rgba(46, 47, 66, 0.7);
-        --color-dairy: #FCFCFC;
+    --primary-brand: #4D5AE5;
+        --pressed-state: #404BBF;
+        --white-background: #FFFFFF;
+        --dark: #2E2F42;
+        --success: #2E2F42;
+        --text: #434455;
+        --subtle-text: #8E8F99;
+        --accent: #E7E9FC;
+        --light: #F4F4FD;
+        --modal-overlay: rgba(46, 47, 66, 0.4);
+        --hero-background: rgba(46, 47, 66, 0.7);
+        --modal-background: #FCFCFC;
 }
 
 body {
     font-family: "Roboto", "sans-serif";
-    color: var(--color-navy-blue);
-    background-color: var(--color-white);
+    color: var(--dark);
+        background-color: var(--white-background);
 }
     
 .title {
@@ -30,7 +30,7 @@ body {
 }
     
 .title-prefix {
-    color: var(--color-iris);
+    color: var(--primary-brand);
 }
 
 .list {
@@ -53,22 +53,26 @@ body {
 
 .header-link:hover,
 .header-link:focus {
-    color: var(--color-ocean);
+    color: var(--pressed-state);
 }
 
 .address-link {
-    color: var(--color-slate);
+    color: var(--text);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 2%;
 }
 
+.address-link:hover,
+.address-link:focus {
+    color: var(--pressed-state)
+}
 .hero {
-    background-color: var(--color-navy-blue);
+    background-color: var(--dark);
 }
 
 .hero-title {
-    color: var(--color-white);
+    color: var(--white-background);
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 2%;
@@ -80,13 +84,13 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 4%;
-    color: var(--color-white);
-    background-color: var(--color-iris);
+    color: var(--white-background);
+        background-color: var(--primary-brand);
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: var(--color-ocean);
+    background-color: var(--pressed-state);
 
 }
 
@@ -95,7 +99,7 @@ body {
 }
 
 .team-section {
-    background-color: var(--color-cloud);
+    background-color: var(--light);
 }
 
 .list-title {
@@ -112,11 +116,11 @@ body {
 }
     
 .footer {
-    background-color: var(--color-navy-blue);
+    background-color: var(--dark);
 }
     
 .footer-text {
-    color: var(--color-cloud)
+    color: var(--light)
 }
     
 .button-filter {
@@ -125,15 +129,15 @@ body {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 4%;
-    color: var(--color-iris);
-        background-color: var(--color-cornflower);
+    color: var(--primary-brand);
+        background-color: var(--accent);
 }
 
 .button-filter:hover,
 .button-filter:focus {
-    color: var(--color-white);
-    background-color: var(--color-ocean);
+    color: var(--white-background);
+        background-color: var(--pressed-state);
 }
 .footer-title {
-    color: var(--color-cloud)
+    color: var(--light)
 }
