@@ -3,7 +3,7 @@
         --pressed-state: #404BBF;
         --white-background: #FFFFFF;
         --dark: #2E2F42;
-        --success: #2E2F42;
+        --success: #31D0AA;
         --text: #434455;
         --subtle-text: #8E8F99;
         --accent: #E7E9FC;
@@ -14,41 +14,47 @@
 }
 
 body {
-    font-family: "Roboto", "sans-serif";
-    color: var(--dark);
+    font-family: "Roboto", sans-serif;
+        color: var(--text);
         background-color: var(--white-background);
 }
-    
-.title {
-    font-family: "Raleway";
+
+.header {
+    list-style: none;
+}
+
+.logo {
+    color: var(--primary-brand);
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
-    line-height: 1.16;
+    line-height: 1.17;
     text-transform: uppercase;
     text-decoration: none;
-    letter-spacing: 3%;
+    letter-spacing: 0.03em;
 }
     
-.title-prefix {
-    color: var(--primary-brand);
+.logo-prefix {
+    color: var(--dark);
 }
 
 .list {
     padding: 0;
     margin: 0;
-    list-style-type: none;
+    list-style: none;
 }
 
 .link {
-    color: inherit;
     text-decoration: none;
 }
 
 .header-link {
+    color: inherit;
+        text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .header-link:hover,
@@ -56,11 +62,14 @@ body {
     color: var(--pressed-state);
 }
 
+.address {
+    font-style: normal;
+}
 .address-link {
     color: var(--text);
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 .address-link:hover,
@@ -75,17 +84,19 @@ body {
     color: var(--white-background);
     font-size: 56px;
     line-height: 1.07;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+        text-align: center;
 }
 
 .hero-button {
-    font-family: inherit;
-    font-size: 16;
+    font-family: "Roboto", sans-serif;
+        font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     color: var(--white-background);
         background-color: var(--primary-brand);
+        cursor: pointer;
 }
 
 .hero-button:hover,
@@ -98,25 +109,53 @@ body {
     display: none;
 }
 
-.team-section {
-    background-color: var(--light);
-}
-
-.list-title {
+.second-section-titles {
+    color: var(-dark);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 2%;
+        letter-spacing: 0.02em;
+            list-style: none;
 }
 
 .paragraph {
+    color: var(--text);
     font-size: 16;
     line-height: 1.5;
-        letter-spacing: 2%;
+        letter-spacing: 0.02em;
+        }
+        
+        .about {
+            color: var(--dark:);
+            font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+        }
+        
+        .team-section {
+            background-color: var(--light);
+        }
+        
+        .team {
+            color: var(--dark:);
+            font-size: 36px;
+            line-height: 1.11;
+            text-align: center;
+            letter-spacing: 0.02em;
+            text-transform: capitalize;
+        }
+        
+        .list-background {
+            background-color: var(--white-background);
 }
     
 .footer {
     background-color: var(--dark);
+}
+.footer-logo-prefix {
+    color: var(--light)
 }
     
 .footer-text {
@@ -124,13 +163,14 @@ body {
 }
     
 .button-filter {
-    font-family: inherit;
-    font-size: 16;
+    font-family: "Roboto", sans-serif;
+        font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     color: var(--primary-brand);
-        background-color: var(--accent);
+        background-color: var(--light);
+            cursor: pointer;
 }
 
 .button-filter:hover,
@@ -138,6 +178,11 @@ body {
     color: var(--white-background);
         background-color: var(--pressed-state);
 }
-.footer-title {
-    color: var(--light)
+.list-title {
+    color: var(-dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    list-style: none;
 }
