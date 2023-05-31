@@ -102,10 +102,6 @@ body {
 
 }
 
-.hidden {
-    display: none;
-}
-
 .second-section-titles {
     color: var(--dark);
     font-size: 20px;
