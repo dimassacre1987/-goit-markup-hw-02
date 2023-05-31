@@ -34,7 +34,7 @@ body {
     letter-spacing: 0.03em;
 }
     
-.logo-prefix {
+.accent {
     color: var(--dark);
 }
 
@@ -154,7 +154,7 @@ body {
 .footer {
     background-color: var(--dark);
 }
-.footer-logo-prefix {
+.footer-accent {
     color: var(--light)
 }
     
